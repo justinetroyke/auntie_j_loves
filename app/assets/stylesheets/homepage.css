@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+.intro-title{
+    color: #EC058E;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.753);
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.activity-title{
+    color: #30332E;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 2px #EC058E;
+    font-size: 4rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.hero{
+    background-image: url("kiddos_welcome.jpeg");
+    height: 35rem;
+    width: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    margin: auto;
+}
+
+body {
+    background-color: #62BBC1;
+}
+
+.nathaniel_home_img {
+    background-image: url("monster_nathaniel.jpg");
+    height: 20rem;
+    width: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    transform: rotate(-25deg);
+    transition: 2s;
+}
+
+.nathaniel_home_img:hover {
+    transform: translateX(-30rem);
+}
+
+.top-nav{
+    height: 4rem;
+    width: max-width;
+    margin: auto;
+    color: #30332E;
+    background: linear-gradient(to right,#010400, #30332E, #FFFBFC);
+}
+
+.fox-video iframe {
+    margin: auto;
+    display: block;
+    margin-bottom: 4rem;
+}
+
+.triangle-down-tilt-left:hover {
+    animation: shake .5s;
+    animation-iteration-count: infinite;
+}
+
+.triangle-down-tilt-right:hover {
+    animation: shake .5s;
+    animation-iteration-count: infinite;
+}
+
+.triangle-down:hover {
+    animation: shake .5s;
+    animation-iteration-count: infinite;
+}
+
+.triangle-down-tilt-left {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-top: 50px solid #30332E;
+    background-position: center;
+    margin: auto;
+    transform: rotate(-25deg);
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.triangle-down-tilt-right {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-top: 50px solid #30332E;
+    background-position: center;
+    margin: auto;
+    transform: rotate(25deg);
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-top: 50px solid #30332E;
+    background-position: center;
+    margin: auto;
+    transform: rotate(-8deg);
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
